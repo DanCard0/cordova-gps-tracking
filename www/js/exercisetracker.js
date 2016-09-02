@@ -59,7 +59,7 @@ $("#startTracking_stop").live('click', function(){
 	    }
 	    return temp;
 	}
-	  
+	 
   	// Stop tracking the user
   	navigator.geolocation.clearWatch(watch_id);
   
